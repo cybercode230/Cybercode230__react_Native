@@ -34,7 +34,7 @@ const UserSection = () => {
 
         <View style={userStyles.inputSection}>
           <View style={userStyles.inputBox}>
-            <SearchIcon name="search" />
+            <SearchIcon name="search" style={userStyles.schIcon} />
             <TextInput
               placeholder="Pick Restaurant"
               keyboardType="default"

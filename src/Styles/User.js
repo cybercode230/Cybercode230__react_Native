@@ -3,13 +3,13 @@ import { StyleSheet } from "react-native";
 export const userStyles = StyleSheet.create({
   topWrapper: {
     backgroundColor: "#f07e4e",
-    width: "100vw",
+    width: "90vw",
     // marginTop: 1,
-    padding: 5,
+    padding: 0,
   },
   top: {
-    paddingHorizontal: 10,
-    paddingVertical: 20,
+    paddingHorizontal: 5,
+    paddingVertical: 5,
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
@@ -59,5 +59,9 @@ export const userStyles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     gap: 8,
+  },
+  schIcon: {
+    width: 15,
+    height:15,
   },
 });
