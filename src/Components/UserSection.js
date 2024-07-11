@@ -11,7 +11,7 @@ const UserSection = () => {
         <View style={userStyles.top}>
           <View>
             <Image
-              source={require("../Img/h1.jpeg")}
+              source={require("../Img/1.png")}
               style={userStyles.profilePic}
             />
           </View>
