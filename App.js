@@ -1,23 +1,10 @@
-  // // App.js
-  // import React from "react";
-  // import { View } from "react-native";
-  // import Home from "./src/screens/Home";
-
-  // export default function App() {
-  //   return (
-  //     <View >
-  //       <Home />
-  //     </View>
-  //   );
-  // }
-
   import * as React from "react";
   import { NavigationContainer } from "@react-navigation/native";
   import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
   import Icon from "react-native-vector-icons/Feather";
   import ProductStack from "./src/Navigation/ProductStack";
   import DeliveryScreen from "./src/screens/DeliveryScreen";
-import AccountScreen from "./src/screens/AccountScreen";
+  import AccountScreen from "./src/screens/AccountScreen";
   import Newproduct from "./src/screens/Newproduct";
 
 const Tab = createBottomTabNavigator();
